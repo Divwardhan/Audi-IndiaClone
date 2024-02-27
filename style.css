@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'Sreda';
+    src: url('path/to/sreda-regular.woff2') format('woff2'), 
+         url('path/to/sreda-regular.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+#Headers{
+    text-decoration: none;
+    color:grey;
+    font-family: "Roboto", sans-serif;
+}
+#Headers:hover{
+    color: black;
+}
+
+
+
+input[type="submit"] {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 16px; 
+    background-color: grey; 
+    color: white; 
+    font-size: 12px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type="text"]:hover{
+    border-color:gray;
+}
+input[type="text"]:focus {
+    border-color: black; 
+}
+
+div.imgbackground1 {
+    background-image: url('A236532_large.jpg');
+    background-size: 100vw auto; 
+    font-family: 'Sreda', serif;
+    width: 100vw
+    ;
+    color: white;
+}
+
+#ExploreB1{
+    border-radius: 0px;
+    font-size: 18px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    font-family: Arial;
+
+}
+.minicar:hover{
+    transform:scale(1.1);
+}
+#ExploreB1:hover{
+    background-color: lightgray;
+    border: 1px solid lightgray;
+}
+
+#ExploreB1:focus{
+    background-color: grey;
+    border:1px solid grey;
+}
+
+#ExploreB2{
+    border-radius: 0px;
+    font-size: 18px;
+    padding: 14px;
+    border: 1px solid white;
+    margin-left: 20px;
+    background-color:transparent;
+    color:white;
+    text-decoration:none;
+    font-family: Arial;
+    
+}
+#ExploreB2:hover{
+    background-color: transparent;
+    border: 1px solid lightgray;
+    color:lightgray;
+}
+#ExploreB2:focus{
+    background-color: transparent;
+    border: 1px solid gray;
+    color:gray;
+}
+
+#ExploreMore{
+    border-radius: 0px;
+    font-size: 18px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    text-align:center;
+    width:100%;
+    font-family: Arial;
+}
+#ExploreMore:hover{
+    background-color: transparent;
+    border: 1px solid lightgray;
+    color:gray;
+
+}
+#ExploreMore:focus{
+    background-color: transparent;
+    border: 1px solid gray;
+    color:gray;
+}
+
+form {
+    display: inline; 
+  }
+
+div.imgbackground2{
+    background-image: url('Aud.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Sreda', serif;
+    color:white;
+    font-family: Arial;
+    
+}
+h1{
+    color: black;
+}
+.white{
+    background-color: white;
+    color: grey;
+    font-family: 'Sreda', serif;
+    font-size: 22px;
+    margin-left: 33px;
+    text-align:center;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    padding: 2%;
+}
+
+#EtronHub{  
+    border-radius: 0px;
+    font-size: 18px;
+    padding: 16px;
+    border: 1px solid black;
+    margin-left: 20px;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+#Future{
+    border-radius: 0px;
+    font-size: 18px;
+    padding: 16px;
+    border: 2px solid gray;
+    margin-left: 20px;
+    font-family: Arial;
+    background-color: white;
+    color: gray;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+#anchor1{  
+    border-radius: 0px;
+    font-size: 18px;
+    padding: 16px;
+    border: 1px solid black;
+    padding-left: 8%;
+    padding-right:8%;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+#anchor2{
+    border-radius: 0px;
+    font-size: 18px;
+    padding: 16px;
+    border: 2px solid black;
+    margin-left: 20px;
+    font-family: Arial;
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 22px;  
+
+}
+.container {
+    display: flex; 
+    background-color:black;
+
+  }
+  
+  .content {
+    flex-grow: 1;
+    color:white;
+    font-family: 'Sreda', serif;
+    font-size:30px;
+    
+  }
+  
+  .separator {
+    width: 2px; 
+    
+    margin: 0 10px; 
+    font-size: 50px;
+    font-family: 'Sreda', serif;
+  }
+
+  .content1h{
+    color:white;
+  }
+  #anchor3{  
+    border-radius: 0px;
+    font-size: 18px;
+    padding: 16px;
+    border: 1px solid white;
+    padding-left: 8%;
+    padding-right:8%;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    
+
+}
+.content2 {
+    flex-grow: 1;
+    color:white;
+    background-color:white;
+    font-family: 'Sreda', serif;
+    font-size:30px;
+    
+  }
+
+  
+
+
+
+
+
+
+
+
